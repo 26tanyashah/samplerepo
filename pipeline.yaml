@@ -1,0 +1,11 @@
+# useractionlog
+- pipeline.id: useractionlog
+  pipeline.workers: 1
+  pipeline.output.workers: 1
+  queue.type: memory
+   
+# ttp
+- pipeline.id: ttp
+  pipeline.workers: 1
+  pipeline.output.workers: 1
+  queue.type: memory
