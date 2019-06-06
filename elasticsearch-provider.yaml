@@ -1,1 +1,3 @@
-
+ClusterConfigurationFile:config.yaml
+TemplateFiles:template.yaml
+PipelineFiles:pipelines.yaml
