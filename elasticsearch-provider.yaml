@@ -1,5 +1,5 @@
 clusterConfigurationFile: cluster.yaml
 templateFiles: 
   - template.yaml
- pipelineFiles:
-  - pipeline.yaml
+pipelineFiles:
+ - pipeline.yaml
