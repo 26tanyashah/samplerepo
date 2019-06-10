@@ -1,9 +1,0 @@
-index_patterns:
-- in*
-order: 0
-settings:
-  number_of_shards: 1
-mappings:
-  _doc:
-    _source:
-      enabled: false
