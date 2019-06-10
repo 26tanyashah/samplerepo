@@ -1,13 +1,13 @@
-# useractionlog
-- pipeline.id: useractionlog
-  pipeline.workers: 1
-  pipeline.output.workers: 1
-  queue.type: memory
-  path.config: "/usr/local/elastic/logsash/pipelines/useractionlog
-   
-# ttp
-- pipeline.id: ttp
-  pipeline.workers: 1
-  pipeline.output.workers: 1
-  queue.type: memory
-  path.config: "/usr/local/elastic/logsash/pipelines/ttp
+
+index_patterns:
+- "*"
+settings:
+  number_of_shards: 1
+aliases:
+  alias1: {}
+  alias2:
+    filter:
+      term:
+        user: kimchy
+    routing: kimchy
+  "{index}-alias": {}
