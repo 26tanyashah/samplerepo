@@ -2,4 +2,4 @@ clusterConfigurationFile: cluster.yaml
 templateFiles: 
   - template.json
 pipelineFiles:
- - pipeline.yaml
+ - pipeline.json
